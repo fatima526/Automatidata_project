@@ -7,22 +7,15 @@ Table of Contents
 -----------------
 1. [Introduction](#introduction)
 2. [Project Overview](#project-overview)
-3. [Project Structure](#project-structure)
-4. [Project Goals](#project-goals)
-5. [Data Used](#data-used)
-6. [Methods and Tools](#methods-and-tools)
-7. [Data Analysis Steps](#data-analysis-steps)
-8. [Results and Insights](#results-and-insights)
-9. [Data Visualizations](#data-visualizations)
-10. [Challenges Faced](#challenges-faced)
-11. [Future Work](#future-work)
-12. [Installation](#installation)
-13. [Usage](#usage)
-14. [Contributing](#contributing)
-15. [License](#license)
-16. [Acknowledgments](#acknowledgments)
-17. [Contact Information](#contact-information)
-18. [References](#references)
+3. [Project Goals](#project-goals)
+4. [Data Used](#data-used)
+5. [Methods and Tools](#methods-and-tools)
+6. [Data Analysis Steps](#data-analysis-steps)
+7. [Results and Insights](#results-and-insights)
+8. [Data Visualizations](#data-visualizations)
+9. [Future Work](#future-work)
+10. [Modeling and Evaluation ](#Modeling and Evaluation )
+11. [Conclusion](#Conclusion)
 
 ## Introduction
 # Background on the Automatidata scenario
@@ -37,12 +30,6 @@ The TLC data comes from over 200,000 taxi and limousine licensees, making approx
 The New York City Taxi and Limousine Commission seeks a way to utilize the data collected
 from the New York City area to predict the length of rides and fares.
 
-
-## Project Structure
-
-[Explain the structure of your project, including directories and files.]
-
-## Project Goals
 # Project Goal
 This project represents that the New York City Taxi and Limousine Commission (TLC) has approached the data consulting firm Automatidata to develop an app that enables TLC riders to estimate the taxi fares in advance of their ride.
 
@@ -55,10 +42,10 @@ The data consisted of approximately 408k unique trips and 18 features. The featu
 
 ## Methods and Tools
 
-This project contains the 2017_Yellow_Taxi_Trip_Data set, Python notebook, PACE framework, Tableau and input from stakeholders.
-
-
-## Data Analysis Steps
+This project contains the 2017_Yellow_Taxi_Trip_Data set, Python notebook, PACE workflow, Tableau and input from stakeholders.
+I use PACE framework method to Plan, Analyze, Construct and Execute my project.
+## The PACE Workflow
+![PACE workflow](https://github.com/fatima526/Automatidata_project/blob/main/Screenshot%20(8).png?raw=true)
 
 ## Data Analysis Steps
 
@@ -98,41 +85,18 @@ There are almost always additional features that can be engineered, but hopefull
 
 ## Data Visualizations
 
-[Include any data visualizations you created.]
-
-## Challenges Faced
-
-[Discuss any challenges or obstacles you encountered during the project.]
+This is the tableau visualization of automatidata project.
+![Tableau visualization](https://github.com/fatima526/Automatidata_project/blob/main/Tableau%20visualization.png?raw=true)
 
 ## Future Work
 
 As a next step, the Automatidata data team can consult the New York City Taxi and Limousine commission to share the model results and recommend that the model could be used as an indicator of tip amount. However, additional data would be needed to realize significant improvement to the model.
 
+## Modeling and Evaluation 
+Yes, this is model performs acceptably. Its F1 score was 0.7235 and it had an overall accuracy of 0.6865. It correctly identified ~78% of the actual responders in the test set, which is 48% better than a random guess. It may be worthwhile to test the model with a select group of taxi drivers to get feedback.
+![Random Forest feature importance](https://github.com/fatima526/Automatidata_project/blob/main/Feature%20importance.png?raw=true)
 
-## Installation
+## Conclusion
+This model can benefit Taxi Drivers in knowing if they will be tipped generously or not; however, running a parametric model to determine how much each variable will influence the actual price of the tip. In the future, adding more information on a rider’s past tipping behavior may also be beneficial in helping the stakeholder address their business problem. 
 
-[Explain any setup or installation requirements.]
 
-## Usage
-
-[Provide instructions on how to use your project.]
-
-## Contributing
-
-[Encourage contributions and provide guidelines for contributors.]
-
-## License
-
-[Specify the license under which your project is shared.]
-
-## Acknowledgments
-
-[Give credit to sources that contributed to your project.]
-
-## Contact Information
-
-[Provide contact information for inquiries.]
-
-## References
-
-[Include references or citations to external sources.]
