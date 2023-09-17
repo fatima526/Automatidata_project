@@ -14,7 +14,7 @@ Table of Contents
 7. [Results and Insights](#results-and-insights)
 8. [Data Visualizations](#data-visualizations)
 9. [Future Work](#future-work)
-10. [Modeling and Evaluation ](#Modeling and Evaluation )
+10. [Modeling and Evaluation](#Modeling_and_Evaluation)
 11. [Conclusion](#Conclusion)
 
 ## Introduction
