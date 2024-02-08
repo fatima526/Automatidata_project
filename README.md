@@ -2,7 +2,7 @@
 # Project Goal
 This project represents that the New York City Taxi and Limousine Commission (TLC) has approached the data consulting firm Automatidata to develop an app that enables TLC riders to estimate the taxi fares in advance of their ride.
 
-# Automatidata - Google Data Analytics Project
+# Automatidata - Data Analytics Project
 Table of Contents
 -----------------
 1. [Introduction](#introduction)
